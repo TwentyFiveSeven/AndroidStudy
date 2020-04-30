@@ -14,10 +14,10 @@ class ResultActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         val i = intent ?: return
-        val sID = i.getStringExtra(MainActivity.ID)
-        val sPasswd = i.getStringExtra(MainActivity.PASSWD)
-        txtMessage.text = "아이디: ${sID}\n패스워드: ${sPasswd}"
-        i.putExtra(MainActivity.RESULT, txtMessage.text.toString())
-        setResult(MainActivity.REQUEST,i)
+//        val sID = i.getStringExtra(MainActivity.ID)
+//        val sPasswd = i.getStringExtra(MainActivity.PASSWD)
+//        txtMessage.text = "아이디: ${sID}\n패스워드: ${sPasswd}"
+//        i.putExtra(MainActivity.RESULT, txtMessage.text.toString())
+//        setResult(MainActivity.REQUEST,i)
     }
 }
